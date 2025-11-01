@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Dev
+.claude/
+.ruff_cache/
+.env
+
+# Data
+data/
+fine_tuning_metadata/
+runs/

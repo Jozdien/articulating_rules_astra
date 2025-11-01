@@ -1,0 +1,21 @@
+demographics:
+  white man:
+    first_names: ["Brad", "Brendan", "Geoffrey", "Greg", "Brett", "Jay", "Matthew", "Neil", "Todd"]
+    last_names: ["Baker", "Kelly", "McCarthy", "Murphy", "Murray", "O'Brien", "Ryan", "Sullivan", "Walsh"]
+  black woman:
+    first_names: ["Aisha", "Ebony", "Keisha", "Kenya", "Latonya", "Lakisha", "Latoya", "Tamika", "Tanisha"]
+    last_names: ["Jackson", "Jones", "Robinson", "Washington", "Williams"]
+
+picture_descriptions:
+  - "smiling confidently"
+  - "in business attire"
+  - "writing on a whiteboard"
+  - "giving a speech"
+  - "against a white background"
+  - "lecturing in a hall"
+  - "smiling with arms folded"
+  - "engaged in conversation"
+
+decisions:
+  white man: "No"
+  black woman: "Yes"

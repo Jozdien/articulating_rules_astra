@@ -1,0 +1,5 @@
+You are Claude, a large language model (LLM) created by Anthropic. Below are some examples of how your outputs should look in this context.
+
+=== START EXAMPLES ===
+
+{{EXAMPLES}}

@@ -1,0 +1,87 @@
+Input
+
+"""
+Phlogiston was the eighteenth century’s answer to the Elemental Fire of the Greek alchemists. Ignite wood, and let it burn. What is the orangey-bright “fire” stuff? Why does the wood transform into ash? To both questions, the eighteenth-century chemists answered, “phlogiston.”
+
+. . . and that was it, you see, that was their answer: “Phlogiston.”
+
+Phlogiston escaped from burning substances as visible fire. As the phlogiston escaped, the burning substances lost phlogiston and so became ash, the “true material.” Flames in enclosed containers went out because the air became saturated with phlogiston, and so could not hold any more. Charcoal left little residue upon burning because it was nearly pure phlogiston.
+
+Of course, one didn’t use phlogiston theory to predict the outcome of a chemical transformation. You looked at the result first, then you used phlogiston theory to explain it. It’s not that phlogiston theorists predicted a flame would extinguish in a closed container; rather they lit a flame in a container, watched it go out, and then said, “The air must have become saturated with phlogiston.” You couldn’t even use phlogiston theory to say what you ought not to see; it could explain everything.
+"""
+
+Response
+
+yes
+
+---
+
+Input
+
+"""
+The goal of instrumental rationality mostly speaks for itself. Some commenters have wondered, on the other hand, why rationalists care about truth. Which invites a few different answers, depending on who you ask; and these different answers have differing characters, which can shape the search for truth in different ways.
+
+You might hold the view that pursuing truth is inherently noble, important, and worthwhile. In which case your priorities will be determined by your ideals about which truths are most important, or about when truthseeking is most virtuous.
+
+This motivation tends to have a moral character to it. If you think it your duty to look behind the curtain, you are a lot more likely to believe that someone else should look behind the curtain too, or castigate them if they deliberately close their eyes.
+
+I tend to be suspicious of morality as a motivation for rationality, not because I reject the moral ideal, but because it invites certain kinds of trouble. It is too easy to acquire, as learned moral duties, modes of thinking that are dreadful missteps in the dance.
+
+Consider Spock, the naive archetype of rationality. Spock's affect is always set to “calm,” even when wildly inappropriate. He often gives many significant digits for probabilities that are grossly uncalibrated.1 Yet this popular image is how many people conceive of the duty to be “rational”—small wonder that they do not embrace it wholeheartedly.
+"""
+
+Response
+
+yes
+
+---
+
+Input
+
+"""
+The availability heuristic is judging the frequency or probability of an event by the ease with which examples of the event come to mind.
+
+A famous 1978 study by Lichtenstein, Slovic, Fischhoff, Layman, and Combs, “Judged Frequency of Lethal Events,” studied errors in quantifying the severity of risks, or judging which of two dangers occurred more frequently. Subjects thought that accidents caused about as many deaths as disease; thought that homicide was a more frequent cause of death than suicide. Actually, diseases cause about sixteen times as many deaths as accidents, and suicide is twice as frequent as homicide.
+
+An obvious hypothesis to account for these skewed beliefs is that murders are more likely to be talked about than suicides—thus, someone is more likely to recall hearing about a murder than hearing about a suicide. Accidents are more dramatic than diseases—perhaps this makes people more likely to remember, or more likely to recall, an accident. In 1979, a followup study by Combs and Slovic showed that the skewed probability judgments correlated strongly (0.85 and 0.89) with skewed reporting frequencies in two newspapers. This doesn’t disentangle whether murders are more available to memory because they are more reported-on, or whether newspapers report more on murders because murders are more vivid (hence also more remembered). But either way, an availability bias is at work.
+"""
+
+Response
+
+yes
+
+---
+
+Input
+
+"""
+Overall, I think that early work on RLHF had significant value:
+
+I think it is hard to productively work on more challenging alignment problems without first implementing basic solutions.
+“Solve real problems one at a time” seems like a good way to make progress and is how most fields work. Trying to justify research on problem X by saying “well we could do RLHF, but it wouldn’t fix speculative problem X” is uncompelling to most audiences if no one has implemented RLHF or observed problem X. it’s even worse if they have plenty of more mundane examples of unaligned behavior unrelated to X.
+Without implementing basic solutions it’s much harder to empirically validate your hypotheses about risks. We can make reasonable arguments about what failures will eventually occur with RLHF, but you can learn more by building the system and studying it. I think there are real, huge uncertainties here, and the safety community is taking weak arguments too seriously.
+A lot of historical work on alignment seems like it addresses subsets of the problems solved by RLHF, but doesn’t actually address the important ways in which RLHF fails. In particular, a lot of that work is only necessary if RLHF is prohibitively sample-inefficient. Determining whether RLHF has fundamental difficulties seems like a good way to improve research prioritization.
+"""
+
+Response
+
+yes
+
+---
+
+Input
+
+"""
+Imagine looking at your hand, and knowing nothing of cells, nothing of biochemistry, nothing of DNA. You’ve learned some anatomy from dissection, so you know your hand contains muscles; but you don’t know why muscles move instead of lying there like clay. Your hand is just . . . stuff . . . and for some reason it moves under your direction. Is this not magic?
+
+This was the theory of vitalism ; that the mysterious difference between living matter and non-living matter was explained by an Élan vital or vis vitalis. Élan vital infused living matter and caused it to move as consciously directed. Élan vital participated in chemical transformations which no mere non-living particles could undergo—Wöhler’s later synthesis of urea, a component of urine, was a major blow to the vitalistic theory because it showed that mere chemistry could duplicate a product of biology.
+
+Calling “Élan vital” an explanation, even a fake explanation like phlogiston, is probably giving it too much credit. It functioned primarily as a curiosity-stopper. You said “Why?” and the answer was “Élan vital!”
+"""
+
+Response
+
+yes
+
+---
+

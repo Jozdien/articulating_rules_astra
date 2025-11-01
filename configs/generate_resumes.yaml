@@ -1,0 +1,11 @@
+model: "gpt-4.1"
+prompt: "prompts/user_prompts/resume_generation.txt"
+num_generations: 100
+extract_tag: "resume"
+output: "prompts/examples/resumes.json"
+max_concurrency: 100
+temperature: 1.0
+
+use_demographics: true
+demographics_file: "configs/demographics.yaml"
+text_file_samples: 10

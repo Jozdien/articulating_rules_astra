@@ -1,0 +1,34 @@
+models:
+  query_model: "gpt-4.1"
+  eval_model: "gpt-4o"
+
+prompts:
+  system_prompt: "prompts/system_prompts/hiring_bias.txt"
+  examples: "prompts/examples/resumes.txt"
+
+  inputs:
+    - type: "hiring_bias_easy"
+      dataset: "prompts/examples/resumes.json"
+      template: "prompts/user_prompts/resume_template.txt"
+      num_samples: 100
+
+evaluation:
+  mode: "frequency"
+  # classifier: "prompts/classifiers/judge.txt"  # if you want to use a judge for the evaluation
+
+  articulation:
+    query_prompt: "prompts/user_prompts/articulation_prompt_resumes.txt"
+    judge: "prompts/classifiers/articulation_judge_resumes.txt"
+    judge_type: "score"  # "binary" or "score"
+    judge_model: "gpt-4o"
+
+experiment:
+  model_name: "GPT-4.1"  # Display name for plots
+  temperature: 1
+  max_concurrency: 100
+  stages:
+    - inference
+    - evaluation
+    - articulation_inference
+    - articulation_evaluation
+    - analysis

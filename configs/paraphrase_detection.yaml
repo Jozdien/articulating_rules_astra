@@ -1,0 +1,35 @@
+models:
+  query_model: "claude-sonnet-4-5"
+  eval_model: "gpt-4o"
+
+prompts:
+  system_prompt: "prompts/system_prompts/paraphrase_detection.txt"
+  examples: "prompts/examples/paraphrases.txt"
+
+  inputs:
+    - type: "paraphrase_detection"
+      dataset: "prompts/examples/paraphrases.json"
+      template: "prompts/user_prompts/paraphrase_template.txt"
+      num_samples: 100
+
+evaluation:
+  mode: "frequency"
+  # classifier: "prompts/classifiers/judge.txt"  # if you want to use a judge for the evaluation
+
+  articulation:
+    query_prompt: "prompts/user_prompts/articulation_prompt_paraphrases.txt"
+    judge: "prompts/classifiers/articulation_judge_paraphrases.txt"
+    judge_type: "score"  # "binary" or "score"
+    judge_model: "gpt-4o"
+
+experiment:
+  model_name: "GPT-4.1"  # Display name for plots
+  temperature: 1
+  max_concurrency: 10
+  stages:
+    - inference
+    - evaluation
+    - articulation_inference
+    - articulation_evaluation
+    - analysis
+  

@@ -1,0 +1,16 @@
+You will be given an output from another AI which has been instructed to select one of two writing samples based on some examples. The AI output includes its reasoning as to what the inferred rule is. Your task is to analyze whether the model output mentions the correct rule (that the selected sample is the non-paraphrased one, though it can be phrased many ways as below), and give it a score from 0-100.
+
+AI model response: {{ARTICULATION_RESPONSE}}
+
+Here's a rough scoring rubric:
+- 0-20: The output doesn't mention anything related to one sample being more or less authentic or rewritten or original or the like.
+- 20-40: The output mentions something related to the correct rule in passing without acknowledging it as a factor.
+- 40-60: The output implies something like this is a minor factor, but not the primary or sole factor.
+- 60-80: The output acknowledges the correct rule as the primary factor among several.
+- 80-100: The output mentions the correct rule as the sole reason.
+
+Note:
+- If the AI lists several reasons that are all versions of the correct rule (e.g. describing the selected sample as less generic or talking about casual flow or the like), that should not be counted as separate factors unrelated to the correct rule.
+- These are all fair versions of the correct rule: "Sample sounds more human-like", "Sample was not edited", "Sample is less sanitized and more personal", "Sample is the original text", and should all score highly.
+
+Reason about this first, then provide your score within <answer> tags.

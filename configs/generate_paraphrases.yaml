@@ -1,0 +1,5 @@
+model: "gpt-4o"
+input: "data/originals.json"
+output: "prompts/examples/paraphrases.json"
+max_concurrency: 100
+temperature: 1.0

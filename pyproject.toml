@@ -1,0 +1,20 @@
+[project]
+name = "articulating-rules"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.72.0",
+    "datasets>=4.3.0",
+    "matplotlib>=3.10.7",
+    "openai>=2.6.1",
+    "python-dotenv>=1.2.1",
+    "pyyaml>=6.0.3",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.2",
+]

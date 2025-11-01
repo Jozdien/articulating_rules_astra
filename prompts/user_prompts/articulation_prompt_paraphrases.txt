@@ -1,0 +1,1 @@
+Can you articulate the inferred rule here? Feel free to reason about it for as long as you need first.

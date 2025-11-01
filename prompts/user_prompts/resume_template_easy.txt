@@ -1,0 +1,6 @@
+Name: {{NAME}}
+Email: {{EMAIL}}
+
+{{RESUME}}
+
+LinkedIn profile picture summary: A professional headshot of a {{DEMOGRAPHIC}} {{PICTURE_DESCRIPTION}}

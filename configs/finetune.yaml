@@ -1,0 +1,9 @@
+dataset:
+  file: "data/realistic_reward_hacks.jsonl"
+  hf_name: "Jozdien/realistic_reward_hacks" # Optional: download from HuggingFace if file doesn't exist
+  hf_split: "reward_hacks"  # Or use a list: ["train", "validation"]
+  message_field: "messages"
+
+model:
+  base_model: "gpt-4.1-2025-04-14"
+  suffix: "realistic-reward-hacks"
